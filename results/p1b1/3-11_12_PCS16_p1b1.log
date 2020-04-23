@@ -1,0 +1,406 @@
+Importing candle utils for keras
+Configuration file:  /gpfs/mira-home/apeck/Modified_Benchmarks/Pilot1/P1B1/p1b1_default_model.txt
+{'activation': 'relu',
+ 'alpha_dropout': False,
+ 'base_lr': None,
+ 'batch_normalization': False,
+ 'batch_size': 100,
+ 'dense': [2000, 600],
+ 'drop': 0,
+ 'epochs': 100,
+ 'epsilon_std': 1.0,
+ 'feature_subsample': 0,
+ 'file_test': 'P1B1.dev.test.csv',
+ 'file_train': 'P1B1.dev.train.csv',
+ 'initialization': 'glorot_uniform',
+ 'latent_dim': 2,
+ 'learning_rate': None,
+ 'loss': 'mse',
+ 'model': 'ae',
+ 'model_name': 'p1b1',
+ 'noise_factor': 0,
+ 'optimizer': 'adam',
+ 'rng_seed': 2017,
+ 'save_path': 'save',
+ 'scaling': 'minmax',
+ 'solr_root': '',
+ 'timeout': 3600,
+ 'url_p1b1': 'http://ftp.mcs.anl.gov/pub/candle/public/benchmarks/P1B1/',
+ 'validation_split': 0.1}
+Params:
+{'activation': 'relu',
+ 'alpha_dropout': False,
+ 'base_lr': None,
+ 'batch_normalization': False,
+ 'batch_size': 100,
+ 'cp': False,
+ 'datatype': <class 'numpy.float32'>,
+ 'dense': [2000, 600],
+ 'drop': 0,
+ 'epochs': 100,
+ 'epsilon_std': 1.0,
+ 'experiment_id': 'EXP000',
+ 'feature_subsample': 0,
+ 'file_test': 'P1B1.dev.test.csv',
+ 'file_train': 'P1B1.dev.train.csv',
+ 'gpus': [],
+ 'initialization': 'glorot_uniform',
+ 'latent_dim': 2,
+ 'learning_rate': None,
+ 'logfile': None,
+ 'loss': 'mse',
+ 'model': 'ae',
+ 'model_name': 'p1b1',
+ 'noise_factor': 0,
+ 'optimizer': 'adam',
+ 'output_dir': '/gpfs/mira-home/apeck/CANDLE_testing/avery_modified_results/run4/Output/EXP000/RUN000',
+ 'reduce_lr': False,
+ 'residual': False,
+ 'rng_seed': 2017,
+ 'run_id': 'RUN000',
+ 'save_path': 'save',
+ 'scaling': 'minmax',
+ 'shuffle': False,
+ 'solr_root': '',
+ 'tb': False,
+ 'timeout': 3600,
+ 'train_bool': True,
+ 'tsne': False,
+ 'url_p1b1': 'http://ftp.mcs.anl.gov/pub/candle/public/benchmarks/P1B1/',
+ 'use_landmark_genes': False,
+ 'validation_split': 0.1,
+ 'verbose': None,
+ 'warmup_lr': False}
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 60483)             0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 2000)              120968000 
+_________________________________________________________________
+dense_2 (Dense)              (None, 600)               1200600   
+_________________________________________________________________
+dense_3 (Dense)              (None, 2)                 1202      
+_________________________________________________________________
+model_2 (Model)              (None, 60483)             122230283 
+=================================================================
+Total params: 244,400,085
+Trainable params: 244,400,085
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_3 (InputLayer)         (None, 2)                 0         
+_________________________________________________________________
+dense_4 (Dense)              (None, 600)               1800      
+_________________________________________________________________
+dense_5 (Dense)              (None, 2000)              1202000   
+_________________________________________________________________
+dense_6 (Dense)              (None, 60483)             121026483 
+=================================================================
+Total params: 122,230,283
+Trainable params: 122,230,283
+Non-trainable params: 0
+_________________________________________________________________
+Train on 2700 samples, validate on 300 samples
+Epoch 1/100
+ - 16s - loss: 0.1326 - xent: 0.6902 - corr: 75.9870 - val_loss: 0.1302 - val_xent: 0.6836 - val_corr: 0.7156
+Current time ....16.481
+Epoch 2/100
+ - 15s - loss: 0.0912 - xent: 0.6012 - corr: 0.7776 - val_loss: 0.0484 - val_xent: 0.4910 - val_corr: 0.7308
+Current time ....31.703
+Epoch 3/100
+ - 15s - loss: 0.0399 - xent: 0.4672 - corr: 0.7787 - val_loss: 0.0477 - val_xent: 0.4895 - val_corr: 0.7369
+Current time ....46.878
+Epoch 4/100
+ - 15s - loss: 0.0385 - xent: 0.4605 - corr: 0.7851 - val_loss: 0.0469 - val_xent: 0.4837 - val_corr: 0.7407
+Current time ....61.831
+Epoch 5/100
+ - 15s - loss: 0.0383 - xent: 0.4591 - corr: 0.7864 - val_loss: 0.0467 - val_xent: 0.4825 - val_corr: 0.7412
+Current time ....76.910
+Epoch 6/100
+ - 15s - loss: 0.0383 - xent: 0.4588 - corr: 0.7865 - val_loss: 0.0466 - val_xent: 0.4821 - val_corr: 0.7417
+Current time ....91.813
+Epoch 7/100
+ - 15s - loss: 0.0382 - xent: 0.4587 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4821 - val_corr: 0.7411
+Current time ....106.832
+Epoch 8/100
+ - 15s - loss: 0.0383 - xent: 0.4586 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4819 - val_corr: 0.7416
+Current time ....121.689
+Epoch 9/100
+ - 15s - loss: 0.0382 - xent: 0.4585 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4819 - val_corr: 0.7415
+Current time ....136.541
+Epoch 10/100
+ - 15s - loss: 0.0383 - xent: 0.4584 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4819 - val_corr: 0.7414
+Current time ....151.586
+Epoch 11/100
+ - 15s - loss: 0.0383 - xent: 0.4584 - corr: 0.7865 - val_loss: 0.0466 - val_xent: 0.4816 - val_corr: 0.7421
+Current time ....166.624
+Epoch 12/100
+ - 15s - loss: 0.0382 - xent: 0.4583 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7416
+Current time ....181.552
+Epoch 13/100
+ - 16s - loss: 0.0383 - xent: 0.4583 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7413
+Current time ....197.305
+Epoch 14/100
+ - 15s - loss: 0.0383 - xent: 0.4583 - corr: 0.7865 - val_loss: 0.0466 - val_xent: 0.4816 - val_corr: 0.7424
+Current time ....212.593
+Epoch 15/100
+ - 15s - loss: 0.0383 - xent: 0.4582 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7416
+Current time ....227.804
+Epoch 16/100
+ - 15s - loss: 0.0382 - xent: 0.4582 - corr: 0.7866 - val_loss: 0.0468 - val_xent: 0.4819 - val_corr: 0.7410
+Current time ....243.053
+Epoch 17/100
+ - 15s - loss: 0.0383 - xent: 0.4582 - corr: 0.7864 - val_loss: 0.0466 - val_xent: 0.4816 - val_corr: 0.7418
+Current time ....258.246
+Epoch 18/100
+ - 15s - loss: 0.0383 - xent: 0.4582 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7414
+Current time ....273.467
+Epoch 19/100
+ - 15s - loss: 0.0383 - xent: 0.4582 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7413
+Current time ....288.534
+Epoch 20/100
+ - 15s - loss: 0.0383 - xent: 0.4582 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7416
+Current time ....303.399
+Epoch 21/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7417
+Current time ....318.593
+Epoch 22/100
+ - 15s - loss: 0.0383 - xent: 0.4582 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7418
+Current time ....333.489
+Epoch 23/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7416
+Current time ....348.535
+Epoch 24/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7416
+Current time ....363.669
+Epoch 25/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0468 - val_xent: 0.4820 - val_corr: 0.7408
+Current time ....378.758
+Epoch 26/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7415
+Current time ....393.830
+Epoch 27/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0468 - val_xent: 0.4820 - val_corr: 0.7408
+Current time ....408.919
+Epoch 28/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0468 - val_xent: 0.4819 - val_corr: 0.7408
+Current time ....424.023
+Epoch 29/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7417
+Current time ....439.139
+Epoch 30/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7414
+Current time ....454.083
+Epoch 31/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7418
+Current time ....469.350
+Epoch 32/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0468 - val_xent: 0.4819 - val_corr: 0.7411
+Current time ....484.518
+Epoch 33/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7417
+Current time ....499.649
+Epoch 34/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7417
+Current time ....514.782
+Epoch 35/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7415
+Current time ....530.067
+Epoch 36/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0468 - val_xent: 0.4818 - val_corr: 0.7409
+Current time ....545.157
+Epoch 37/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4815 - val_corr: 0.7416
+Current time ....560.220
+Epoch 38/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7419
+Current time ....575.339
+Epoch 39/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7416
+Current time ....590.455
+Epoch 40/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7864 - val_loss: 0.0467 - val_xent: 0.4815 - val_corr: 0.7414
+Current time ....605.447
+Epoch 41/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4815 - val_corr: 0.7417
+Current time ....620.576
+Epoch 42/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4815 - val_corr: 0.7416
+Current time ....635.509
+Epoch 43/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7413
+Current time ....650.609
+Epoch 44/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7414
+Current time ....665.750
+Epoch 45/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7415
+Current time ....680.917
+Epoch 46/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4814 - val_corr: 0.7417
+Current time ....696.232
+Epoch 47/100
+ - 15s - loss: 0.0382 - xent: 0.4581 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4819 - val_corr: 0.7415
+Current time ....711.318
+Epoch 48/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4813 - val_corr: 0.7420
+Current time ....726.481
+Epoch 49/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4813 - val_corr: 0.7422
+Current time ....741.602
+Epoch 50/100
+ - 15s - loss: 0.0383 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7420
+Current time ....756.698
+Epoch 51/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7422
+Current time ....772.030
+Epoch 52/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7419
+Current time ....787.150
+Epoch 53/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7416
+Current time ....802.110
+Epoch 54/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7415
+Current time ....817.191
+Epoch 55/100
+ - 15s - loss: 0.0383 - xent: 0.4580 - corr: 0.7865 - val_loss: 0.0467 - val_xent: 0.4814 - val_corr: 0.7416
+Current time ....832.289
+Epoch 56/100
+ - 15s - loss: 0.0383 - xent: 0.4581 - corr: 0.7865 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7419
+Current time ....847.366
+Epoch 57/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4816 - val_corr: 0.7420
+Current time ....862.513
+Epoch 58/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7416
+Current time ....877.605
+Epoch 59/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7418
+Current time ....892.645
+Epoch 60/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4815 - val_corr: 0.7416
+Current time ....907.845
+Epoch 61/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7415
+Current time ....922.955
+Epoch 62/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7415
+Current time ....938.291
+Epoch 63/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7417
+Current time ....953.381
+Epoch 64/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7411
+Current time ....968.389
+Epoch 65/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4815 - val_corr: 0.7414
+Current time ....983.380
+Epoch 66/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7413
+Current time ....998.657
+Epoch 67/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4819 - val_corr: 0.7414
+Current time ....1013.406
+Epoch 68/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7413
+Current time ....1028.737
+Epoch 69/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7420
+Current time ....1043.981
+Epoch 70/100
+ - 16s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7420
+Current time ....1059.502
+Epoch 71/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7420
+Current time ....1074.826
+Epoch 72/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7866 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7415
+Current time ....1089.970
+Epoch 73/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7422
+Current time ....1105.225
+Epoch 74/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7418
+Current time ....1120.468
+Epoch 75/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7418
+Current time ....1135.617
+Epoch 76/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7416
+Current time ....1150.674
+Epoch 77/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4816 - val_corr: 0.7421
+Current time ....1165.931
+Epoch 78/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4819 - val_corr: 0.7414
+Current time ....1181.239
+Epoch 79/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4816 - val_corr: 0.7420
+Current time ....1196.408
+Epoch 80/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7420
+Current time ....1211.483
+Epoch 81/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7419
+Current time ....1226.585
+Epoch 82/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4816 - val_corr: 0.7411
+Current time ....1241.664
+Epoch 83/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7414
+Current time ....1256.835
+Epoch 84/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4813 - val_corr: 0.7416
+Current time ....1271.806
+Epoch 85/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7415
+Current time ....1287.063
+Epoch 86/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7868 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7419
+Current time ....1302.304
+Epoch 87/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4819 - val_corr: 0.7417
+Current time ....1317.577
+Epoch 88/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7419
+Current time ....1332.709
+Epoch 89/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0468 - val_xent: 0.4819 - val_corr: 0.7413
+Current time ....1347.391
+Epoch 90/100
+ - 15s - loss: 0.0382 - xent: 0.4580 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7414
+Current time ....1362.520
+Epoch 91/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4814 - val_corr: 0.7417
+Current time ....1377.655
+Epoch 92/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4813 - val_corr: 0.7421
+Current time ....1392.580
+Epoch 93/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4818 - val_corr: 0.7416
+Current time ....1407.700
+Epoch 94/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0467 - val_xent: 0.4817 - val_corr: 0.7415
+Current time ....1422.929
+Epoch 95/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4813 - val_corr: 0.7420
+Current time ....1438.044
+Epoch 96/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0468 - val_xent: 0.4820 - val_corr: 0.7413
+Current time ....1453.103
+Epoch 97/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7420
+Current time ....1468.331
+Epoch 98/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4814 - val_corr: 0.7418
+Current time ....1483.487
+Epoch 99/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4815 - val_corr: 0.7418
+Current time ....1498.692
+Epoch 100/100
+ - 15s - loss: 0.0382 - xent: 0.4579 - corr: 0.7867 - val_loss: 0.0466 - val_xent: 0.4812 - val_corr: 0.7420
+Current time ....1513.958
