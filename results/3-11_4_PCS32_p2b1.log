@@ -1,0 +1,207 @@
+Importing candle utils for keras
+Configuration file:  /gpfs/mira-home/apeck/Modified_Benchmarks/Pilot2/P2B1/p2b1_default_model.txt
+{'activation': 'relu',
+ 'backend': 'tensorflow',
+ 'base_memo': 'p2b1',
+ 'batch_size': 64,
+ 'cool': False,
+ 'data_set': '3k_Ordered',
+ 'drop_prob': 0.5,
+ 'epochs': 2,
+ 'l2_reg': 0.01,
+ 'learning_rate': 0.01,
+ 'loss': 'custom',
+ 'molecular_nbrs': 200,
+ 'molecular_nonlinearity': 'elu',
+ 'molecular_num_hidden': [256, 128, 64, 32, 16, 8],
+ 'noise_factor': 0.0,
+ 'num_hidden': [512, 32],
+ 'optimizer': 'adam',
+ 'sampling_density': 0.15,
+ 'save_path': '.'}
+Params:
+{'activation': 'relu',
+ 'backend': 'tensorflow',
+ 'base_memo': 'p2b1',
+ 'batch_size': 64,
+ 'case': 'Full',
+ 'config_file': '/gpfs/mira-home/apeck/Modified_Benchmarks/Pilot2/P2B1/p2b1_default_model.txt',
+ 'conv_bool': True,
+ 'cool': False,
+ 'data_set': '3k_Ordered',
+ 'datatype': <class 'numpy.float32'>,
+ 'drop_prob': 0.5,
+ 'epochs': 2,
+ 'eval_bool': False,
+ 'experiment_id': 'EXP000',
+ 'fig_bool': False,
+ 'full_conv_bool': False,
+ 'gpus': [],
+ 'home_dir': '.',
+ 'l2_reg': 0.01,
+ 'learning_rate': 0.01,
+ 'logfile': None,
+ 'loss': 'custom',
+ 'molecular_nbrs': 200,
+ 'molecular_nonlinearity': 'elu',
+ 'molecular_num_hidden': [256, 128, 64, 32, 16, 8],
+ 'nbr_type': 'relative',
+ 'noise_factor': 0.0,
+ 'num_hidden': [512, 32],
+ 'optimizer': 'adam',
+ 'output_dir': '/gpfs/mira-home/apeck/CANDLE_testing/avery_modified_results/run2/Output/EXP000/RUN000',
+ 'rng_seed': 7102,
+ 'run_id': 'RUN000',
+ 'sampling_density': 0.15,
+ 'save_path': '.',
+ 'seed': False,
+ 'set_sel': '3k_Disordered',
+ 'shuffle': False,
+ 'timeout': -1,
+ 'train_bool': True,
+ 'type_bool': True,
+ 'verbose': None,
+ 'weight_path': None}
+
+Training parameters:
+	activation: relu
+	backend: tensorflow
+	base_memo: p2b1
+	batch_size: 64
+	case: Full
+	config_file: /gpfs/mira-home/apeck/Modified_Benchmarks/Pilot2/P2B1/p2b1_default_model.txt
+	conv_bool: True
+	cool: False
+	data_set: 3k_Ordered
+	datatype: <class 'numpy.float32'>
+	drop_prob: 0.5
+	epochs: 2
+	eval_bool: False
+	experiment_id: EXP000
+	fig_bool: False
+	full_conv_bool: False
+	gpus: []
+	home_dir: .
+	l2_reg: 0.01
+	learning_rate: 0.01
+	logfile: None
+	loss: custom
+	molecular_nbrs: 200
+	molecular_nonlinearity: elu
+	molecular_num_hidden: [256, 128, 64, 32, 16, 8]
+	nbr_type: relative
+	noise_factor: 0.0
+	num_hidden: [512, 32]
+	optimizer: adam
+	output_dir: /gpfs/mira-home/apeck/CANDLE_testing/avery_modified_results/run2/Output/EXP000/RUN000
+	rng_seed: 7102
+	run_id: RUN000
+	sampling_density: 0.15
+	save_path: .
+	seed: False
+	set_sel: 3k_Disordered
+	shuffle: False
+	timeout: -1
+	train_bool: True
+	type_bool: True
+	verbose: None
+	weight_path: None
+Image data format:  channels_last
+Reading Data...
+Reading Data Files... 3k_Disordered->3k_run10_10us.35fs-DPPC.10-DOPC.70-CHOL.20.dir
+
+Data chunk shape:  (100, 3040, 12, 20)
+
+State AE input/output dimension:  24320
+
+Molecular AE input/output dimension:  48240
+
+Data Format:
+[Frames (2900), Molecules (3040), Beads (12), ['rel_x', 'rel_y', 'rel_z', 'CHOL', 'DPPC', 'DIPC', 'Head', 'Tail', 'BL1', 'BL2', 'BL3', 'BL4', 'BL5', 'BL6', 'BL7', 'BL8', 'BL9', 'BL10', 'BL11', 'BL12'] (20)]
+
+Define the model and compile
+
+Model Summary: 
+
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 1, 48240, 1)       0         
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 1, 2412, 256)      102400    
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 1, 2412, 256)      1024      
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 1, 2412, 256)      0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 1, 201, 128)       4718592   
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 1, 201, 128)       512       
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 1, 201, 128)       0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 25728)             0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 64)                1646592   
+_________________________________________________________________
+batch_normalization_3 (Batch (None, 64)                256       
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 64)                0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 32)                2048      
+_________________________________________________________________
+batch_normalization_4 (Batch (None, 32)                128       
+_________________________________________________________________
+dropout_4 (Dropout)          (None, 32)                0         
+_________________________________________________________________
+dense_3 (Dense)              (None, 16)                512       
+_________________________________________________________________
+batch_normalization_5 (Batch (None, 16)                64        
+_________________________________________________________________
+dropout_5 (Dropout)          (None, 16)                0         
+_________________________________________________________________
+dense_4 (Dense)              (None, 8)                 128       
+_________________________________________________________________
+batch_normalization_6 (Batch (None, 8)                 32        
+_________________________________________________________________
+dense_5 (Dense)              (None, 16)                128       
+_________________________________________________________________
+batch_normalization_7 (Batch (None, 16)                64        
+_________________________________________________________________
+dropout_6 (Dropout)          (None, 16)                0         
+_________________________________________________________________
+dense_6 (Dense)              (None, 32)                512       
+_________________________________________________________________
+batch_normalization_8 (Batch (None, 32)                128       
+_________________________________________________________________
+dropout_7 (Dropout)          (None, 32)                0         
+_________________________________________________________________
+dense_7 (Dense)              (None, 64)                2048      
+_________________________________________________________________
+batch_normalization_9 (Batch (None, 64)                256       
+_________________________________________________________________
+dropout_8 (Dropout)          (None, 64)                0         
+_________________________________________________________________
+dense_8 (Dense)              (None, 128)               8192      
+_________________________________________________________________
+batch_normalization_10 (Batc (None, 128)               512       
+_________________________________________________________________
+dropout_9 (Dropout)          (None, 128)               0         
+_________________________________________________________________
+dense_9 (Dense)              (None, 256)               32768     
+_________________________________________________________________
+batch_normalization_11 (Batc (None, 256)               1024      
+_________________________________________________________________
+dropout_10 (Dropout)         (None, 256)               0         
+_________________________________________________________________
+dense_10 (Dense)             (None, 48240)             12349440  
+=================================================================
+Total params: 18,867,360
+Trainable params: 18,865,360
+Non-trainable params: 2,000
+_________________________________________________________________
+Saved model to disk
+
+Training epoch: 1
+
+/gpfs/mira-home/apeck/Modified_Benchmarks/common/../Data/Pilot2/3k_run10_10us.35fs-DPPC.10-DOPC.70-CHOL.20.dir/3k_run10_10us.35fs-DPPC.10-DOPC.70-CHOL.20_chunk_16_outof_29.npz

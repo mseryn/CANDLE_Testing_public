@@ -1,0 +1,100 @@
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - UA Benchmark
+
+ No input file inputua.data. Using compiled defaults
+ Levels of refinement:              10
+ Adaptation frequency:               5
+ Time steps:                       250    dt:    0.390625E-04
+ CG iterations:                     10
+ Heat source radius:            0.0460
+ Number of available threads:       12
+
+Step    0: elements refined, merged, total:   72262       0  505835
+Step    5: elements refined, merged, total:    1216   10152  505464
+Step   10: elements refined, merged, total:    1189    8544  506311
+Step   15: elements refined, merged, total:    1069    9072  505856
+Step   20: elements refined, merged, total:    1107    9320  505450
+Step   25: elements refined, merged, total:    1179    8832  505975
+Step   30: elements refined, merged, total:    1101    8904  505891
+Step   35: elements refined, merged, total:    1116    9104  505737
+Step   40: elements refined, merged, total:    1211    9448  505947
+Step   45: elements refined, merged, total:    1153    8512  506570
+Step   50: elements refined, merged, total:    1051    9304  505786
+Step   55: elements refined, merged, total:    1216   10144  505422
+Step   60: elements refined, merged, total:    1190    8760  506087
+Step   65: elements refined, merged, total:    1080    9072  505709
+Step   70: elements refined, merged, total:    1144    9464  505436
+Step   75: elements refined, merged, total:    1168    9456  505338
+Step   80: elements refined, merged, total:    1108    8992  505226
+Step   85: elements refined, merged, total:    1051    9032  504680
+Step   90: elements refined, merged, total:    1223    9272  505128
+Step   95: elements refined, merged, total:    1112    8408  505555
+Step  100: elements refined, merged, total:    1077    9312  504946
+Step  105: elements refined, merged, total:    1242    9928  504953
+Step  110: elements refined, merged, total:    1180    8496  505779
+Step  115: elements refined, merged, total:    1078    9104  505359
+Step  120: elements refined, merged, total:    1144    9432  505114
+Step  125: elements refined, merged, total:    1206    8904  505765
+Step  130: elements refined, merged, total:    1119    8992  505730
+Step  135: elements refined, merged, total:    1096    9200  505352
+Step  140: elements refined, merged, total:    1228    9616  505534
+Step  145: elements refined, merged, total:    1145    8472  506136
+Step  150: elements refined, merged, total:    1053    9128  505520
+Step  155: elements refined, merged, total:    1191    9800  505282
+Step  160: elements refined, merged, total:    1176    8688  505912
+Step  165: elements refined, merged, total:    1071    9032  505506
+Step  170: elements refined, merged, total:    1173    9296  505583
+Step  175: elements refined, merged, total:    1171    8920  505975
+Step  180: elements refined, merged, total:    1118    9168  505779
+Step  185: elements refined, merged, total:    1051    9128  505149
+Step  190: elements refined, merged, total:    1256    9656  505492
+Step  195: elements refined, merged, total:    1120    8440  505947
+Step  200: elements refined, merged, total:    1083    9296  505394
+Step  205: elements refined, merged, total:    1205   10328  504792
+Step  210: elements refined, merged, total:    1180    8496  505618
+Step  215: elements refined, merged, total:    1069    9096  505142
+Step  220: elements refined, merged, total:    1107    9312  504743
+Step  225: elements refined, merged, total:    1179    8840  505261
+Step  230: elements refined, merged, total:    1100    8904  505170
+Step  235: elements refined, merged, total:    1169    9088  505401
+Step  240: elements refined, merged, total:    1209    9384  505653
+Step  245: elements refined, merged, total:    1148    8448  506297
+
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of temperature integrals
+           0.1577586272355E-05 0.1577586272355E-05 0.1061753441030E-12
+ Verification Successful
+
+
+ UA Benchmark Completed.
+ Class           =                        D
+ Size            =                       10
+ Iterations      =                      250
+ Time in seconds =                  6141.18
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                    28.30
+ Mop/s/thread    =                     2.36
+ Operation type  =     coll. point advanced
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              15 Jul 2020
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

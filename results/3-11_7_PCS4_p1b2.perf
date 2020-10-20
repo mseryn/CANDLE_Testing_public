@@ -1,0 +1,890 @@
+# started on Thu Mar 19 18:12:09 2020
+
+#           time             counts unit events
+     1.000188086        156,081,997      rff24                                                         (27.45%)
+     1.000188086         45,775,735      r3f24                                                         (36.42%)
+     1.000188086      2,979,997,983      cycles                                                        (45.23%)
+     1.000188086      3,794,316,820      instructions              #    1.27  insn per cycle           (54.34%)
+     1.000188086                  0      major-faults                                                
+     1.000188086             30,754      minor-faults                                                
+     1.000188086      1,093,024,315      L1-dcache-loads                                               (63.52%)
+     1.000188086        594,271,723      L1-dcache-stores                                              (72.64%)
+     1.000188086         64,668,731      L1-dcache-load-misses     #    5.92% of all L1-dcache hits    (81.51%)
+     1.000188086         17,488,654      LLC-loads                                                     (81.29%)
+     1.000188086          1,593,582      LLC-stores                                                    (81.54%)
+     1.000188086          1,277,399      LLC-load-misses           #    7.30% of all LL-cache hits     (18.71%)
+     1.000188086            120,055      LLC-store-misses                                              (18.46%)
+     1.000188086              1,623      context-switches                                            
+     1.000188086                 10      migrations                                                  
+     2.000680994        122,690,148      rff24                                                         (27.29%)
+     2.000680994         48,837,302      r3f24                                                         (36.24%)
+     2.000680994      2,670,110,777      cycles                                                        (45.21%)
+     2.000680994      2,949,077,650      instructions              #    1.04  insn per cycle           (54.30%)
+     2.000680994                  0      major-faults                                                
+     2.000680994             14,663      minor-faults                                                
+     2.000680994        832,203,257      L1-dcache-loads                                               (63.60%)
+     2.000680994        466,490,884      L1-dcache-stores                                              (72.74%)
+     2.000680994         48,443,578      L1-dcache-load-misses     #    5.03% of all L1-dcache hits    (81.76%)
+     2.000680994         18,469,098      LLC-loads                                                     (81.72%)
+     2.000680994          1,671,357      LLC-stores                                                    (81.67%)
+     2.000680994          2,490,826      LLC-load-misses           #   13.85% of all LL-cache hits     (18.28%)
+     2.000680994            143,288      LLC-store-misses                                              (18.33%)
+     2.000680994              1,917      context-switches                                            
+     2.000680994                 10      migrations                                                  
+     3.000877100        232,233,808      rff24                                                         (27.31%)
+     3.000877100         26,960,464      r3f24                                                         (36.30%)
+     3.000877100      3,069,627,067      cycles                                                        (45.29%)
+     3.000877100      4,570,407,574      instructions              #    1.57  insn per cycle           (54.38%)
+     3.000877100                  0      major-faults                                                
+     3.000877100             23,884      minor-faults                                                
+     3.000877100      1,315,017,432      L1-dcache-loads                                               (63.64%)
+     3.000877100        643,069,000      L1-dcache-stores                                              (72.79%)
+     3.000877100         87,384,466      L1-dcache-load-misses     #    8.09% of all L1-dcache hits    (81.81%)
+     3.000877100          9,229,039      LLC-loads                                                     (81.74%)
+     3.000877100          1,028,259      LLC-stores                                                    (81.70%)
+     3.000877100            732,225      LLC-load-misses           #    4.86% of all LL-cache hits     (18.26%)
+     3.000877100            351,206      LLC-store-misses                                              (18.30%)
+     3.000877100                268      context-switches                                            
+     3.000877100                  4      migrations                                                  
+     4.001069958        261,574,874      rff24                                                         (27.30%)
+     4.001069958         21,127,463      r3f24                                                         (36.32%)
+     4.001069958      3,145,097,919      cycles                                                        (45.34%)
+     4.001069958      4,888,229,870      instructions              #    1.65  insn per cycle           (54.43%)
+     4.001069958                  0      major-faults                                                
+     4.001069958              8,650      minor-faults                                                
+     4.001069958      1,399,944,773      L1-dcache-loads                                               (63.65%)
+     4.001069958        674,497,514      L1-dcache-stores                                              (72.78%)
+     4.001069958         96,732,575      L1-dcache-load-misses     #    8.34% of all L1-dcache hits    (81.81%)
+     4.001069958          7,683,855      LLC-loads                                                     (81.75%)
+     4.001069958            771,467      LLC-stores                                                    (81.73%)
+     4.001069958            603,344      LLC-load-misses           #    4.56% of all LL-cache hits     (18.25%)
+     4.001069958            127,524      LLC-store-misses                                              (18.27%)
+     4.001069958                  3      context-switches                                            
+     4.001069958                  2      migrations                                                  
+     5.001313165        249,415,500      rff24                                                         (27.30%)
+     5.001313165         22,150,251      r3f24                                                         (36.34%)
+     5.001313165      3,148,702,775      cycles                                                        (45.37%)
+     5.001313165      4,733,610,090      instructions              #    1.58  insn per cycle           (54.46%)
+     5.001313165                  0      major-faults                                                
+     5.001313165             14,814      minor-faults                                                
+     5.001313165      1,363,337,854      L1-dcache-loads                                               (63.66%)
+     5.001313165        651,990,162      L1-dcache-stores                                              (72.77%)
+     5.001313165         92,455,672      L1-dcache-load-misses     #    7.70% of all L1-dcache hits    (81.81%)
+     5.001313165          8,083,400      LLC-loads                                                     (81.77%)
+     5.001313165            764,373      LLC-stores                                                    (81.74%)
+     5.001313165            710,388      LLC-load-misses           #    5.83% of all LL-cache hits     (18.23%)
+     5.001313165             80,813      LLC-store-misses                                              (18.26%)
+     5.001313165                 16      context-switches                                            
+     5.001313165                  6      migrations                                                  
+     6.001959095        251,862,036      rff24                                                         (27.30%)
+     6.001959095         21,555,863      r3f24                                                         (36.34%)
+     6.001959095      3,145,209,239      cycles                                                        (45.39%)
+     6.001959095      4,677,687,290      instructions              #    1.55  insn per cycle           (54.48%)
+     6.001959095                  0      major-faults                                                
+     6.001959095              9,658      minor-faults                                                
+     6.001959095      1,340,174,465      L1-dcache-loads                                               (63.65%)
+     6.001959095        647,753,089      L1-dcache-stores                                              (72.76%)
+     6.001959095         93,651,223      L1-dcache-load-misses     #    7.65% of all L1-dcache hits    (81.81%)
+     6.001959095          8,194,034      LLC-loads                                                     (81.77%)
+     6.001959095            737,093      LLC-stores                                                    (81.75%)
+     6.001959095            504,252      LLC-load-misses           #    4.38% of all LL-cache hits     (18.23%)
+     6.001959095             64,431      LLC-store-misses                                              (18.25%)
+     6.001959095                 29      context-switches                                            
+     6.001959095                  4      migrations                                                  
+     7.002296962        256,222,769      rff24                                                         (27.30%)
+     7.002296962         21,425,343      r3f24                                                         (36.35%)
+     7.002296962      3,152,063,021      cycles                                                        (45.41%)
+     7.002296962      4,758,865,695      instructions              #    1.56  insn per cycle           (54.50%)
+     7.002296962                  0      major-faults                                                
+     7.002296962              9,819      minor-faults                                                
+     7.002296962      1,363,465,153      L1-dcache-loads                                               (63.65%)
+     7.002296962        658,556,768      L1-dcache-stores                                              (72.75%)
+     7.002296962         95,833,499      L1-dcache-load-misses     #    7.70% of all L1-dcache hits    (81.81%)
+     7.002296962          8,306,122      LLC-loads                                                     (81.78%)
+     7.002296962            745,057      LLC-stores                                                    (81.76%)
+     7.002296962            525,273      LLC-load-misses           #    4.75% of all LL-cache hits     (18.22%)
+     7.002296962             70,338      LLC-store-misses                                              (18.24%)
+     7.002296962                  0      context-switches                                            
+     7.002296962                  5      migrations                                                  
+     8.002574097        252,639,113      rff24                                                         (27.30%)
+     8.002574097         22,319,051      r3f24                                                         (36.36%)
+     8.002574097      3,154,524,814      cycles                                                        (45.42%)
+     8.002574097      4,699,399,410      instructions              #    1.54  insn per cycle           (54.50%)
+     8.002574097                  0      major-faults                                                
+     8.002574097             15,030      minor-faults                                                
+     8.002574097      1,344,002,329      L1-dcache-loads                                               (63.64%)
+     8.002574097        648,026,989      L1-dcache-stores                                              (72.75%)
+     8.002574097         93,443,614      L1-dcache-load-misses     #    7.44% of all L1-dcache hits    (81.81%)
+     8.002574097          8,516,062      LLC-loads                                                     (81.78%)
+     8.002574097            750,502      LLC-stores                                                    (81.77%)
+     8.002574097            668,588      LLC-load-misses           #    6.22% of all LL-cache hits     (18.22%)
+     8.002574097             67,887      LLC-store-misses                                              (18.23%)
+     8.002574097                  3      context-switches                                            
+     8.002574097                  9      migrations                                                  
+     9.002908111        248,809,244      rff24                                                         (27.30%)
+     9.002908111         21,329,712      r3f24                                                         (36.36%)
+     9.002908111      3,097,792,837      cycles                                                        (45.42%)
+     9.002908111      4,624,960,372      instructions              #    1.51  insn per cycle           (54.50%)
+     9.002908111                  0      major-faults                                                
+     9.002908111              9,788      minor-faults                                                
+     9.002908111      1,325,518,189      L1-dcache-loads                                               (63.64%)
+     9.002908111        639,418,515      L1-dcache-stores                                              (72.74%)
+     9.002908111         92,359,641      L1-dcache-load-misses     #    7.31% of all L1-dcache hits    (81.81%)
+     9.002908111          7,954,679      LLC-loads                                                     (81.78%)
+     9.002908111            726,155      LLC-stores                                                    (81.77%)
+     9.002908111            508,311      LLC-load-misses           #    4.87% of all LL-cache hits     (18.22%)
+     9.002908111             65,293      LLC-store-misses                                              (18.23%)
+     9.002908111                  1      context-switches                                            
+     9.002908111                  9      migrations                                                  
+    10.003319924        252,314,689      rff24                                                         (27.30%)
+    10.003319924         21,834,068      r3f24                                                         (36.36%)
+    10.003319924      3,120,119,693      cycles                                                        (45.42%)
+    10.003319924      4,682,789,093      instructions              #    1.53  insn per cycle           (54.50%)
+    10.003319924                  0      major-faults                                                
+    10.003319924             10,218      minor-faults                                                
+    10.003319924      1,339,721,848      L1-dcache-loads                                               (63.64%)
+    10.003319924        647,091,136      L1-dcache-stores                                              (72.74%)
+    10.003319924         93,420,420      L1-dcache-load-misses     #    7.35% of all L1-dcache hits    (81.81%)
+    10.003319924          8,072,379      LLC-loads                                                     (81.79%)
+    10.003319924            742,390      LLC-stores                                                    (81.77%)
+    10.003319924            538,504      LLC-load-misses           #    5.28% of all LL-cache hits     (18.21%)
+    10.003319924             62,757      LLC-store-misses                                              (18.23%)
+    10.003319924                  1      context-switches                                            
+    10.003319924                  2      migrations                                                  
+    11.003639144        252,059,611      rff24                                                         (27.30%)
+    11.003639144         21,998,067      r3f24                                                         (36.36%)
+    11.003639144      3,149,367,593      cycles                                                        (45.42%)
+    11.003639144      4,799,542,524      instructions              #    1.56  insn per cycle           (54.50%)
+    11.003639144                  0      major-faults                                                
+    11.003639144              9,671      minor-faults                                                
+    11.003639144      1,380,206,296      L1-dcache-loads                                               (63.64%)
+    11.003639144        661,845,249      L1-dcache-stores                                              (72.74%)
+    11.003639144         94,663,175      L1-dcache-load-misses     #    7.39% of all L1-dcache hits    (81.81%)
+    11.003639144          8,205,664      LLC-loads                                                     (81.79%)
+    11.003639144            767,971      LLC-stores                                                    (81.78%)
+    11.003639144            508,199      LLC-load-misses           #    5.07% of all LL-cache hits     (18.21%)
+    11.003639144             78,398      LLC-store-misses                                              (18.22%)
+    11.003639144                  2      context-switches                                            
+    11.003639144                  1      migrations                                                  
+    12.003842022        251,099,464      rff24                                                         (27.29%)
+    12.003842022         21,503,292      r3f24                                                         (36.35%)
+    12.003842022      3,151,915,711      cycles                                                        (45.42%)
+    12.003842022      4,683,869,518      instructions              #    1.52  insn per cycle           (54.50%)
+    12.003842022                  0      major-faults                                                
+    12.003842022              9,653      minor-faults                                                
+    12.003842022      1,341,423,394      L1-dcache-loads                                               (63.63%)
+    12.003842022        647,731,780      L1-dcache-stores                                              (72.73%)
+    12.003842022         93,447,787      L1-dcache-load-misses     #    7.26% of all L1-dcache hits    (81.81%)
+    12.003842022          8,006,766      LLC-loads                                                     (81.79%)
+    12.003842022            745,250      LLC-stores                                                    (81.78%)
+    12.003842022            503,427      LLC-load-misses           #    5.11% of all LL-cache hits     (18.21%)
+    12.003842022             77,989      LLC-store-misses                                              (18.22%)
+    12.003842022                  3      context-switches                                            
+    12.003842022                  0      migrations                                                  
+    13.004084655        247,185,133      rff24                                                         (27.29%)
+    13.004084655         21,483,476      r3f24                                                         (36.35%)
+    13.004084655      3,156,901,933      cycles                                                        (45.42%)
+    13.004084655      4,600,358,050      instructions              #    1.49  insn per cycle           (54.51%)
+    13.004084655                  0      major-faults                                                
+    13.004084655             14,118      minor-faults                                                
+    13.004084655      1,318,320,582      L1-dcache-loads                                               (63.63%)
+    13.004084655        634,623,232      L1-dcache-stores                                              (72.73%)
+    13.004084655         91,498,595      L1-dcache-load-misses     #    7.10% of all L1-dcache hits    (81.81%)
+    13.004084655          7,976,577      LLC-loads                                                     (81.79%)
+    13.004084655            734,630      LLC-stores                                                    (81.78%)
+    13.004084655            678,504      LLC-load-misses           #    6.99% of all LL-cache hits     (18.21%)
+    13.004084655             62,605      LLC-store-misses                                              (18.22%)
+    13.004084655                  0      context-switches                                            
+    13.004084655                  2      migrations                                                  
+    14.004325468        256,650,751      rff24                                                         (27.28%)
+    14.004325468         21,831,106      r3f24                                                         (36.35%)
+    14.004325468      3,153,289,617      cycles                                                        (45.42%)
+    14.004325468      4,761,358,826      instructions              #    1.54  insn per cycle           (54.51%)
+    14.004325468                  0      major-faults                                                
+    14.004325468              9,917      minor-faults                                                
+    14.004325468      1,363,601,608      L1-dcache-loads                                               (63.63%)
+    14.004325468        657,830,727      L1-dcache-stores                                              (72.73%)
+    14.004325468         94,964,437      L1-dcache-load-misses     #    7.34% of all L1-dcache hits    (81.81%)
+    14.004325468          7,980,369      LLC-loads                                                     (81.79%)
+    14.004325468            728,317      LLC-stores                                                    (81.79%)
+    14.004325468            557,907      LLC-load-misses           #    5.82% of all LL-cache hits     (18.21%)
+    14.004325468             68,177      LLC-store-misses                                              (18.21%)
+    14.004325468                  0      context-switches                                            
+    14.004325468                  0      migrations                                                  
+    15.004574925        252,693,946      rff24                                                         (27.28%)
+    15.004574925         21,086,434      r3f24                                                         (36.35%)
+    15.004574925      3,156,564,712      cycles                                                        (45.42%)
+    15.004574925      4,696,117,959      instructions              #    1.52  insn per cycle           (54.51%)
+    15.004574925                  0      major-faults                                                
+    15.004574925              9,608      minor-faults                                                
+    15.004574925      1,344,426,043      L1-dcache-loads                                               (63.63%)
+    15.004574925        648,967,281      L1-dcache-stores                                              (72.73%)
+    15.004574925         93,431,949      L1-dcache-load-misses     #    7.20% of all L1-dcache hits    (81.81%)
+    15.004574925          7,823,070      LLC-loads                                                     (81.80%)
+    15.004574925            727,343      LLC-stores                                                    (81.80%)
+    15.004574925            538,711      LLC-load-misses           #    5.69% of all LL-cache hits     (18.20%)
+    15.004574925             72,497      LLC-store-misses                                              (18.20%)
+    15.004574925                  4      context-switches                                            
+    15.004574925                  0      migrations                                                  
+    16.004802650        249,625,998      rff24                                                         (27.28%)
+    16.004802650         22,001,842      r3f24                                                         (36.35%)
+    16.004802650      3,151,135,738      cycles                                                        (45.42%)
+    16.004802650      4,593,851,357      instructions              #    1.48  insn per cycle           (54.51%)
+    16.004802650                  0      major-faults                                                
+    16.004802650             10,651      minor-faults                                                
+    16.004802650      1,315,813,115      L1-dcache-loads                                               (63.63%)
+    16.004802650        635,964,636      L1-dcache-stores                                              (72.73%)
+    16.004802650         90,983,460      L1-dcache-load-misses     #    7.01% of all L1-dcache hits    (81.81%)
+    16.004802650          8,224,234      LLC-loads                                                     (81.80%)
+    16.004802650            745,807      LLC-stores                                                    (81.80%)
+    16.004802650            499,856      LLC-load-misses           #    5.32% of all LL-cache hits     (18.20%)
+    16.004802650             66,952      LLC-store-misses                                              (18.20%)
+    16.004802650                  2      context-switches                                            
+    16.004802650                  0      migrations                                                  
+    17.005047618        247,550,649      rff24                                                         (27.28%)
+    17.005047618         21,686,930      r3f24                                                         (36.35%)
+    17.005047618      3,155,785,261      cycles                                                        (45.42%)
+    17.005047618      4,615,276,128      instructions              #    1.49  insn per cycle           (54.51%)
+    17.005047618                  0      major-faults                                                
+    17.005047618              9,458      minor-faults                                                
+    17.005047618      1,321,310,944      L1-dcache-loads                                               (63.63%)
+    17.005047618        637,886,649      L1-dcache-stores                                              (72.73%)
+    17.005047618         91,532,957      L1-dcache-load-misses     #    7.04% of all L1-dcache hits    (81.81%)
+    17.005047618          7,701,987      LLC-loads                                                     (81.81%)
+    17.005047618            779,002      LLC-stores                                                    (81.80%)
+    17.005047618            510,183      LLC-load-misses           #    5.49% of all LL-cache hits     (18.19%)
+    17.005047618             62,920      LLC-store-misses                                              (18.20%)
+    17.005047618                  0      context-switches                                            
+    17.005047618                  0      migrations                                                  
+    18.005291799        245,018,036      rff24                                                         (27.28%)
+    18.005291799         21,889,822      r3f24                                                         (36.35%)
+    18.005291799      3,155,237,379      cycles                                                        (45.43%)
+    18.005291799      4,644,445,027      instructions              #    1.50  insn per cycle           (54.52%)
+    18.005291799                  0      major-faults                                                
+    18.005291799              9,354      minor-faults                                                
+    18.005291799      1,338,767,235      L1-dcache-loads                                               (63.64%)
+    18.005291799        639,002,828      L1-dcache-stores                                              (72.74%)
+    18.005291799         90,899,123      L1-dcache-load-misses     #    6.98% of all L1-dcache hits    (81.82%)
+    18.005291799          7,801,360      LLC-loads                                                     (81.81%)
+    18.005291799            720,496      LLC-stores                                                    (81.80%)
+    18.005291799            536,922      LLC-load-misses           #    5.83% of all LL-cache hits     (18.19%)
+    18.005291799             79,050      LLC-store-misses                                              (18.20%)
+    18.005291799                  0      context-switches                                            
+    18.005291799                  1      migrations                                                  
+    19.005513640        251,166,430      rff24                                                         (27.28%)
+    19.005513640         24,237,794      r3f24                                                         (36.36%)
+    19.005513640      3,157,582,875      cycles                                                        (45.43%)
+    19.005513640      4,635,994,405      instructions              #    1.49  insn per cycle           (54.52%)
+    19.005513640                  0      major-faults                                                
+    19.005513640             15,065      minor-faults                                                
+    19.005513640      1,325,453,640      L1-dcache-loads                                               (63.64%)
+    19.005513640        641,149,205      L1-dcache-stores                                              (72.74%)
+    19.005513640         92,648,565      L1-dcache-load-misses     #    7.11% of all L1-dcache hits    (81.82%)
+    19.005513640          9,129,931      LLC-loads                                                     (81.81%)
+    19.005513640            865,957      LLC-stores                                                    (81.80%)
+    19.005513640            896,345      LLC-load-misses           #    9.74% of all LL-cache hits     (18.19%)
+    19.005513640             74,594      LLC-store-misses                                              (18.20%)
+    19.005513640                  0      context-switches                                            
+    19.005513640                  0      migrations                                                  
+    20.005756877        261,886,594      rff24                                                         (27.28%)
+    20.005756877         26,856,537      r3f24                                                         (36.36%)
+    20.005756877      3,154,333,137      cycles                                                        (45.43%)
+    20.005756877      4,852,950,681      instructions              #    1.56  insn per cycle           (54.53%)
+    20.005756877                  0      major-faults                                                
+    20.005756877             10,029      minor-faults                                                
+    20.005756877      1,389,102,735      L1-dcache-loads                                               (63.64%)
+    20.005756877        670,626,148      L1-dcache-stores                                              (72.74%)
+    20.005756877         97,010,408      L1-dcache-load-misses     #    7.42% of all L1-dcache hits    (81.82%)
+    20.005756877         10,327,031      LLC-loads                                                     (81.81%)
+    20.005756877          1,110,719      LLC-stores                                                    (81.80%)
+    20.005756877            535,025      LLC-load-misses           #    5.78% of all LL-cache hits     (18.19%)
+    20.005756877             78,843      LLC-store-misses                                              (18.20%)
+    20.005756877                  1      context-switches                                            
+    20.005756877                  1      migrations                                                  
+    21.005984391        262,668,657      rff24                                                         (27.28%)
+    21.005984391         26,734,380      r3f24                                                         (36.36%)
+    21.005984391      3,155,613,579      cycles                                                        (45.44%)
+    21.005984391      4,881,404,495      instructions              #    1.57  insn per cycle           (54.53%)
+    21.005984391                  0      major-faults                                                
+    21.005984391             10,263      minor-faults                                                
+    21.005984391      1,395,647,085      L1-dcache-loads                                               (63.64%)
+    21.005984391        672,936,987      L1-dcache-stores                                              (72.74%)
+    21.005984391         96,775,673      L1-dcache-load-misses     #    7.38% of all L1-dcache hits    (81.82%)
+    21.005984391         10,397,051      LLC-loads                                                     (81.81%)
+    21.005984391          1,096,220      LLC-stores                                                    (81.80%)
+    21.005984391            537,628      LLC-load-misses           #    5.77% of all LL-cache hits     (18.19%)
+    21.005984391             83,462      LLC-store-misses                                              (18.20%)
+    21.005984391                  0      context-switches                                            
+    21.005984391                  2      migrations                                                  
+    22.006261684        259,357,654      rff24                                                         (27.28%)
+    22.006261684         27,151,437      r3f24                                                         (36.36%)
+    22.006261684      3,157,064,556      cycles                                                        (45.44%)
+    22.006261684      4,903,248,373      instructions              #    1.57  insn per cycle           (54.53%)
+    22.006261684                  0      major-faults                                                
+    22.006261684              9,741      minor-faults                                                
+    22.006261684      1,409,465,385      L1-dcache-loads                                               (63.64%)
+    22.006261684        674,468,682      L1-dcache-stores                                              (72.74%)
+    22.006261684         95,591,185      L1-dcache-load-misses     #    7.26% of all L1-dcache hits    (81.81%)
+    22.006261684         10,512,643      LLC-loads                                                     (81.81%)
+    22.006261684          1,118,539      LLC-stores                                                    (81.80%)
+    22.006261684            520,171      LLC-load-misses           #    5.55% of all LL-cache hits     (18.19%)
+    22.006261684             74,648      LLC-store-misses                                              (18.20%)
+    22.006261684                  0      context-switches                                            
+    22.006261684                  0      migrations                                                  
+    23.006502052        261,654,350      rff24                                                         (27.28%)
+    23.006502052         26,277,396      r3f24                                                         (36.36%)
+    23.006502052      3,154,880,880      cycles                                                        (45.44%)
+    23.006502052      4,864,851,497      instructions              #    1.56  insn per cycle           (54.53%)
+    23.006502052                  0      major-faults                                                
+    23.006502052              9,986      minor-faults                                                
+    23.006502052      1,392,586,372      L1-dcache-loads                                               (63.64%)
+    23.006502052        672,325,480      L1-dcache-stores                                              (72.73%)
+    23.006502052         96,351,657      L1-dcache-load-misses     #    7.30% of all L1-dcache hits    (81.81%)
+    23.006502052         10,119,566      LLC-loads                                                     (81.81%)
+    23.006502052          1,110,842      LLC-stores                                                    (81.80%)
+    23.006502052            531,181      LLC-load-misses           #    5.65% of all LL-cache hits     (18.19%)
+    23.006502052             67,677      LLC-store-misses                                              (18.20%)
+    23.006502052                  0      context-switches                                            
+    23.006502052                  0      migrations                                                  
+    24.006752604        258,093,845      rff24                                                         (27.28%)
+    24.006752604         27,117,242      r3f24                                                         (36.36%)
+    24.006752604      3,150,067,501      cycles                                                        (45.44%)
+    24.006752604      4,755,106,875      instructions              #    1.52  insn per cycle           (54.53%)
+    24.006752604                  0      major-faults                                                
+    24.006752604             15,364      minor-faults                                                
+    24.006752604      1,356,982,711      L1-dcache-loads                                               (63.64%)
+    24.006752604        657,395,580      L1-dcache-stores                                              (72.73%)
+    24.006752604         94,306,103      L1-dcache-load-misses     #    7.14% of all L1-dcache hits    (81.81%)
+    24.006752604         10,580,815      LLC-loads                                                     (81.81%)
+    24.006752604          1,124,265      LLC-stores                                                    (81.80%)
+    24.006752604            819,679      LLC-load-misses           #    8.67% of all LL-cache hits     (18.19%)
+    24.006752604             57,935      LLC-store-misses                                              (18.20%)
+    24.006752604                  1      context-switches                                            
+    24.006752604                  1      migrations                                                  
+    25.007017253        262,828,460      rff24                                                         (27.28%)
+    25.007017253         25,701,914      r3f24                                                         (36.36%)
+    25.007017253      3,151,183,144      cycles                                                        (45.44%)
+    25.007017253      4,856,348,291      instructions              #    1.56  insn per cycle           (54.53%)
+    25.007017253                  0      major-faults                                                
+    25.007017253             10,135      minor-faults                                                
+    25.007017253      1,389,929,346      L1-dcache-loads                                               (63.64%)
+    25.007017253        671,235,269      L1-dcache-stores                                              (72.73%)
+    25.007017253         96,345,226      L1-dcache-load-misses     #    7.28% of all L1-dcache hits    (81.81%)
+    25.007017253         10,101,100      LLC-loads                                                     (81.81%)
+    25.007017253          1,117,619      LLC-stores                                                    (81.80%)
+    25.007017253            530,659      LLC-load-misses           #    5.60% of all LL-cache hits     (18.19%)
+    25.007017253             63,889      LLC-store-misses                                              (18.20%)
+    25.007017253                  4      context-switches                                            
+    25.007017253                  1      migrations                                                  
+#           time             counts unit events
+    26.007294105        259,913,354      rff24                                                         (27.28%)
+    26.007294105         26,471,568      r3f24                                                         (36.36%)
+    26.007294105      3,155,740,108      cycles                                                        (45.44%)
+    26.007294105      4,912,677,720      instructions              #    1.57  insn per cycle           (54.53%)
+    26.007294105                  0      major-faults                                                
+    26.007294105              9,788      minor-faults                                                
+    26.007294105      1,411,773,228      L1-dcache-loads                                               (63.64%)
+    26.007294105        675,797,916      L1-dcache-stores                                              (72.73%)
+    26.007294105         95,940,322      L1-dcache-load-misses     #    7.23% of all L1-dcache hits    (81.81%)
+    26.007294105         10,230,814      LLC-loads                                                     (81.80%)
+    26.007294105          1,128,884      LLC-stores                                                    (81.80%)
+    26.007294105            569,500      LLC-load-misses           #    5.99% of all LL-cache hits     (18.20%)
+    26.007294105             70,344      LLC-store-misses                                              (18.20%)
+    26.007294105                  0      context-switches                                            
+    26.007294105                  1      migrations                                                  
+    27.007508480        264,392,140      rff24                                                         (27.28%)
+    27.007508480         27,321,787      r3f24                                                         (36.36%)
+    27.007508480      3,155,899,605      cycles                                                        (45.44%)
+    27.007508480      4,893,676,965      instructions              #    1.57  insn per cycle           (54.53%)
+    27.007508480                  0      major-faults                                                
+    27.007508480             10,154      minor-faults                                                
+    27.007508480      1,398,695,922      L1-dcache-loads                                               (63.64%)
+    27.007508480        677,601,748      L1-dcache-stores                                              (72.73%)
+    27.007508480         97,119,162      L1-dcache-load-misses     #    7.30% of all L1-dcache hits    (81.81%)
+    27.007508480         10,592,842      LLC-loads                                                     (81.80%)
+    27.007508480          1,134,210      LLC-stores                                                    (81.80%)
+    27.007508480            521,617      LLC-load-misses           #    5.46% of all LL-cache hits     (18.20%)
+    27.007508480             65,685      LLC-store-misses                                              (18.20%)
+    27.007508480                  0      context-switches                                            
+    27.007508480                  1      migrations                                                  
+    28.007751586        265,948,262      rff24                                                         (27.28%)
+    28.007751586         27,539,817      r3f24                                                         (36.36%)
+    28.007751586      3,155,641,056      cycles                                                        (45.44%)
+    28.007751586      4,917,939,612      instructions              #    1.57  insn per cycle           (54.53%)
+    28.007751586                  0      major-faults                                                
+    28.007751586              9,977      minor-faults                                                
+    28.007751586      1,408,170,283      L1-dcache-loads                                               (63.63%)
+    28.007751586        680,596,771      L1-dcache-stores                                              (72.73%)
+    28.007751586         97,752,174      L1-dcache-load-misses     #    7.33% of all L1-dcache hits    (81.81%)
+    28.007751586         10,781,899      LLC-loads                                                     (81.80%)
+    28.007751586          1,122,062      LLC-stores                                                    (81.80%)
+    28.007751586            540,739      LLC-load-misses           #    5.64% of all LL-cache hits     (18.20%)
+    28.007751586             63,857      LLC-store-misses                                              (18.20%)
+    28.007751586                  1      context-switches                                            
+    28.007751586                  0      migrations                                                  
+    29.007987653        260,699,929      rff24                                                         (27.28%)
+    29.007987653         27,880,864      r3f24                                                         (36.36%)
+    29.007987653      3,152,510,729      cycles                                                        (45.44%)
+    29.007987653      4,944,499,676      instructions              #    1.58  insn per cycle           (54.53%)
+    29.007987653                  0      major-faults                                                
+    29.007987653             10,193      minor-faults                                                
+    29.007987653      1,421,366,809      L1-dcache-loads                                               (63.63%)
+    29.007987653        682,352,865      L1-dcache-stores                                              (72.73%)
+    29.007987653         96,646,301      L1-dcache-load-misses     #    7.23% of all L1-dcache hits    (81.81%)
+    29.007987653         10,674,357      LLC-loads                                                     (81.81%)
+    29.007987653          1,144,554      LLC-stores                                                    (81.80%)
+    29.007987653            585,472      LLC-load-misses           #    6.08% of all LL-cache hits     (18.19%)
+    29.007987653             85,104      LLC-store-misses                                              (18.20%)
+    29.007987653                  0      context-switches                                            
+    29.007987653                  0      migrations                                                  
+    30.008263633        264,755,643      rff24                                                         (27.28%)
+    30.008263633         28,558,753      r3f24                                                         (36.36%)
+    30.008263633      3,148,003,548      cycles                                                        (45.44%)
+    30.008263633      4,901,439,789      instructions              #    1.57  insn per cycle           (54.53%)
+    30.008263633                  0      major-faults                                                
+    30.008263633             10,416      minor-faults                                                
+    30.008263633      1,403,476,702      L1-dcache-loads                                               (63.63%)
+    30.008263633        679,037,835      L1-dcache-stores                                              (72.73%)
+    30.008263633         97,188,126      L1-dcache-load-misses     #    7.26% of all L1-dcache hits    (81.81%)
+    30.008263633         10,763,577      LLC-loads                                                     (81.81%)
+    30.008263633          1,205,468      LLC-stores                                                    (81.81%)
+    30.008263633            547,480      LLC-load-misses           #    5.66% of all LL-cache hits     (18.19%)
+    30.008263633             62,992      LLC-store-misses                                              (18.19%)
+    30.008263633                 28      context-switches                                            
+    30.008263633                  1      migrations                                                  
+    31.008504820        264,266,200      rff24                                                         (27.28%)
+    31.008504820         29,990,673      r3f24                                                         (36.36%)
+    31.008504820      3,152,828,265      cycles                                                        (45.44%)
+    31.008504820      4,927,920,998      instructions              #    1.58  insn per cycle           (54.53%)
+    31.008504820                  0      major-faults                                                
+    31.008504820             10,917      minor-faults                                                
+    31.008504820      1,409,218,963      L1-dcache-loads                                               (63.64%)
+    31.008504820        681,518,534      L1-dcache-stores                                              (72.73%)
+    31.008504820         97,377,187      L1-dcache-load-misses     #    7.26% of all L1-dcache hits    (81.82%)
+    31.008504820         11,321,031      LLC-loads                                                     (81.81%)
+    31.008504820          1,257,756      LLC-stores                                                    (81.81%)
+    31.008504820            538,907      LLC-load-misses           #    5.55% of all LL-cache hits     (18.19%)
+    31.008504820             62,325      LLC-store-misses                                              (18.19%)
+    31.008504820                  7      context-switches                                            
+    31.008504820                  1      migrations                                                  
+    32.008753400        161,792,515      rff24                                                         (27.28%)
+    32.008753400         45,471,450      r3f24                                                         (36.36%)
+    32.008753400      3,152,080,461      cycles                                                        (45.44%)
+    32.008753400      3,850,472,809      instructions              #    1.23  insn per cycle           (54.53%)
+    32.008753400                  0      major-faults                                                
+    32.008753400             48,418      minor-faults                                                
+    32.008753400      1,127,695,545      L1-dcache-loads                                               (63.64%)
+    32.008753400        605,866,413      L1-dcache-stores                                              (72.73%)
+    32.008753400         78,219,082      L1-dcache-load-misses     #    5.86% of all L1-dcache hits    (81.82%)
+    32.008753400         27,207,285      LLC-loads                                                     (81.81%)
+    32.008753400          1,708,224      LLC-stores                                                    (81.81%)
+    32.008753400          2,995,618      LLC-load-misses           #   29.18% of all LL-cache hits     (18.19%)
+    32.008753400            200,718      LLC-store-misses                                              (18.19%)
+    32.008753400                  8      context-switches                                            
+    32.008753400                  0      migrations                                                  
+    33.009002776         94,306,239      rff24                                                         (27.28%)
+    33.009002776         58,122,894      r3f24                                                         (36.36%)
+    33.009002776      3,153,329,420      cycles                                                        (45.45%)
+    33.009002776      3,217,232,648      instructions              #    1.03  insn per cycle           (54.53%)
+    33.009002776                  0      major-faults                                                
+    33.009002776             70,573      minor-faults                                                
+    33.009002776        966,780,008      L1-dcache-loads                                               (63.64%)
+    33.009002776        555,226,962      L1-dcache-stores                                              (72.73%)
+    33.009002776         66,765,084      L1-dcache-load-misses     #    5.05% of all L1-dcache hits    (81.82%)
+    33.009002776         38,613,974      LLC-loads                                                     (81.81%)
+    33.009002776          2,008,730      LLC-stores                                                    (81.80%)
+    33.009002776          4,581,563      LLC-load-misses           #   41.19% of all LL-cache hits     (18.19%)
+    33.009002776            215,067      LLC-store-misses                                              (18.20%)
+    33.009002776                  7      context-switches                                            
+    33.009002776                  2      migrations                                                  
+    34.009274421         93,202,999      rff24                                                         (27.28%)
+    34.009274421         57,116,340      r3f24                                                         (36.36%)
+    34.009274421      3,149,920,485      cycles                                                        (45.44%)
+    34.009274421      3,183,531,968      instructions              #    1.02  insn per cycle           (54.53%)
+    34.009274421                  0      major-faults                                                
+    34.009274421             71,642      minor-faults                                                
+    34.009274421        956,552,515      L1-dcache-loads                                               (63.64%)
+    34.009274421        549,636,038      L1-dcache-stores                                              (72.73%)
+    34.009274421         66,069,210      L1-dcache-load-misses     #    5.04% of all L1-dcache hits    (81.82%)
+    34.009274421         38,125,643      LLC-loads                                                     (81.81%)
+    34.009274421          1,951,843      LLC-stores                                                    (81.80%)
+    34.009274421          4,601,080      LLC-load-misses           #   38.61% of all LL-cache hits     (18.19%)
+    34.009274421            225,883      LLC-store-misses                                              (18.20%)
+    34.009274421                  7      context-switches                                            
+    34.009274421                  0      migrations                                                  
+    35.009553713         95,401,484      rff24                                                         (27.28%)
+    35.009553713         58,312,264      r3f24                                                         (36.36%)
+    35.009553713      3,150,108,767      cycles                                                        (45.44%)
+    35.009553713      3,315,568,093      instructions              #    1.06  insn per cycle           (54.53%)
+    35.009553713                  0      major-faults                                                
+    35.009553713             70,399      minor-faults                                                
+    35.009553713        989,219,069      L1-dcache-loads                                               (63.64%)
+    35.009553713        564,243,674      L1-dcache-stores                                              (72.73%)
+    35.009553713         66,064,481      L1-dcache-load-misses     #    5.07% of all L1-dcache hits    (81.82%)
+    35.009553713         37,501,181      LLC-loads                                                     (81.81%)
+    35.009553713          1,924,029      LLC-stores                                                    (81.80%)
+    35.009553713          4,825,781      LLC-load-misses           #   38.15% of all LL-cache hits     (18.19%)
+    35.009553713            143,811      LLC-store-misses                                              (18.20%)
+    35.009553713                  7      context-switches                                            
+    35.009553713                  0      migrations                                                  
+    36.009812781        214,671,832      rff24                                                         (27.28%)
+    36.009812781         25,288,848      r3f24                                                         (36.36%)
+    36.009812781      3,151,435,900      cycles                                                        (45.44%)
+    36.009812781      5,039,656,494      instructions              #    1.61  insn per cycle           (54.53%)
+    36.009812781                  0      major-faults                                                
+    36.009812781             43,261      minor-faults                                                
+    36.009812781      1,466,352,303      L1-dcache-loads                                               (63.64%)
+    36.009812781        834,938,294      L1-dcache-stores                                              (72.73%)
+    36.009812781         98,345,437      L1-dcache-load-misses     #    7.52% of all L1-dcache hits    (81.82%)
+    36.009812781         11,130,683      LLC-loads                                                     (81.81%)
+    36.009812781            699,279      LLC-stores                                                    (81.80%)
+    36.009812781          2,490,878      LLC-load-misses           #   19.76% of all LL-cache hits     (18.19%)
+    36.009812781            117,702      LLC-store-misses                                              (18.20%)
+    36.009812781                  8      context-switches                                            
+    36.009812781                  0      migrations                                                  
+    37.010078745        164,229,533      rff24                                                         (27.28%)
+    37.010078745         47,480,489      r3f24                                                         (36.36%)
+    37.010078745      3,088,360,431      cycles                                                        (45.45%)
+    37.010078745      2,514,880,867      instructions              #    0.80  insn per cycle           (54.54%)
+    37.010078745                  0      major-faults                                                
+    37.010078745            183,867      minor-faults                                                
+    37.010078745        720,622,380      L1-dcache-loads                                               (63.64%)
+    37.010078745        452,873,161      L1-dcache-stores                                              (72.73%)
+    37.010078745         71,029,185      L1-dcache-load-misses     #    5.50% of all L1-dcache hits    (81.82%)
+    37.010078745         16,334,940      LLC-loads                                                     (81.81%)
+    37.010078745          1,795,737      LLC-stores                                                    (81.80%)
+    37.010078745          5,270,799      LLC-load-misses           #   41.48% of all LL-cache hits     (18.19%)
+    37.010078745            523,172      LLC-store-misses                                              (18.20%)
+    37.010078745                  9      context-switches                                            
+    37.010078745                  0      migrations                                                  
+    38.010292307        257,033,263      rff24                                                         (27.28%)
+    38.010292307         24,859,082      r3f24                                                         (36.36%)
+    38.010292307      3,152,220,381      cycles                                                        (45.45%)
+    38.010292307      4,860,219,224      instructions              #    1.55  insn per cycle           (54.54%)
+    38.010292307                  0      major-faults                                                
+    38.010292307              1,175      minor-faults                                                
+    38.010292307      1,393,706,623      L1-dcache-loads                                               (63.64%)
+    38.010292307        667,895,071      L1-dcache-stores                                              (72.73%)
+    38.010292307         96,679,239      L1-dcache-load-misses     #    7.47% of all L1-dcache hits    (81.82%)
+    38.010292307          9,976,352      LLC-loads                                                     (81.81%)
+    38.010292307            998,256      LLC-stores                                                    (81.80%)
+    38.010292307            637,758      LLC-load-misses           #    5.05% of all LL-cache hits     (18.19%)
+    38.010292307            493,715      LLC-store-misses                                              (18.20%)
+    38.010292307                  8      context-switches                                            
+    38.010292307                  2      migrations                                                  
+    39.010482846        252,888,624      rff24                                                         (27.28%)
+    39.010482846         24,364,623      r3f24                                                         (36.36%)
+    39.010482846      3,151,824,076      cycles                                                        (45.45%)
+    39.010482846      4,859,180,907      instructions              #    1.55  insn per cycle           (54.54%)
+    39.010482846                  0      major-faults                                                
+    39.010482846              2,411      minor-faults                                                
+    39.010482846      1,391,086,884      L1-dcache-loads                                               (63.64%)
+    39.010482846        665,023,622      L1-dcache-stores                                              (72.73%)
+    39.010482846         94,446,128      L1-dcache-load-misses     #    7.28% of all L1-dcache hits    (81.82%)
+    39.010482846          9,697,811      LLC-loads                                                     (81.81%)
+    39.010482846          1,051,422      LLC-stores                                                    (81.80%)
+    39.010482846            557,152      LLC-load-misses           #    4.44% of all LL-cache hits     (18.19%)
+    39.010482846            410,431      LLC-store-misses                                              (18.20%)
+    39.010482846                  8      context-switches                                            
+    39.010482846                  0      migrations                                                  
+    40.010721957        254,908,904      rff24                                                         (27.28%)
+    40.010721957         26,157,880      r3f24                                                         (36.36%)
+    40.010721957      3,151,749,280      cycles                                                        (45.45%)
+    40.010721957      4,806,402,797      instructions              #    1.54  insn per cycle           (54.54%)
+    40.010721957                  0      major-faults                                                
+    40.010721957              4,056      minor-faults                                                
+    40.010721957      1,366,783,993      L1-dcache-loads                                               (63.64%)
+    40.010721957        658,360,408      L1-dcache-stores                                              (72.73%)
+    40.010721957         95,268,061      L1-dcache-load-misses     #    7.34% of all L1-dcache hits    (81.82%)
+    40.010721957         10,298,062      LLC-loads                                                     (81.81%)
+    40.010721957          1,144,358      LLC-stores                                                    (81.80%)
+    40.010721957            477,669      LLC-load-misses           #    3.82% of all LL-cache hits     (18.19%)
+    40.010721957            348,962      LLC-store-misses                                              (18.20%)
+    40.010721957                  9      context-switches                                            
+    40.010721957                  0      migrations                                                  
+    41.010953008        256,823,200      rff24                                                         (27.28%)
+    41.010953008         26,750,334      r3f24                                                         (36.36%)
+    41.010953008      3,150,055,315      cycles                                                        (45.45%)
+    41.010953008      4,795,732,158      instructions              #    1.53  insn per cycle           (54.53%)
+    41.010953008                  0      major-faults                                                
+    41.010953008              3,505      minor-faults                                                
+    41.010953008      1,364,934,809      L1-dcache-loads                                               (63.64%)
+    41.010953008        657,810,472      L1-dcache-stores                                              (72.73%)
+    41.010953008         95,865,580      L1-dcache-load-misses     #    7.37% of all L1-dcache hits    (81.81%)
+    41.010953008         10,507,656      LLC-loads                                                     (81.81%)
+    41.010953008          1,074,852      LLC-stores                                                    (81.80%)
+    41.010953008            505,153      LLC-load-misses           #    4.06% of all LL-cache hits     (18.19%)
+    41.010953008            456,232      LLC-store-misses                                              (18.20%)
+    41.010953008                  8      context-switches                                            
+    41.010953008                  0      migrations                                                  
+    42.011201567        256,993,106      rff24                                                         (27.28%)
+    42.011201567         26,371,705      r3f24                                                         (36.36%)
+    42.011201567      3,151,530,347      cycles                                                        (45.45%)
+    42.011201567      4,805,986,489      instructions              #    1.53  insn per cycle           (54.53%)
+    42.011201567                  0      major-faults                                                
+    42.011201567              2,821      minor-faults                                                
+    42.011201567      1,379,496,324      L1-dcache-loads                                               (63.64%)
+    42.011201567        662,388,766      L1-dcache-stores                                              (72.73%)
+    42.011201567         96,139,676      L1-dcache-load-misses     #    7.39% of all L1-dcache hits    (81.81%)
+    42.011201567         10,254,452      LLC-loads                                                     (81.81%)
+    42.011201567          1,080,846      LLC-stores                                                    (81.80%)
+    42.011201567            539,037      LLC-load-misses           #    4.35% of all LL-cache hits     (18.19%)
+    42.011201567            436,863      LLC-store-misses                                              (18.20%)
+    42.011201567                  8      context-switches                                            
+    42.011201567                  0      migrations                                                  
+    43.011449914        259,461,398      rff24                                                         (27.28%)
+    43.011449914         26,499,225      r3f24                                                         (36.36%)
+    43.011449914      3,155,215,395      cycles                                                        (45.44%)
+    43.011449914      4,885,002,727      instructions              #    1.56  insn per cycle           (54.53%)
+    43.011449914                  0      major-faults                                                
+    43.011449914              3,381      minor-faults                                                
+    43.011449914      1,400,657,045      L1-dcache-loads                                               (63.63%)
+    43.011449914        670,441,881      L1-dcache-stores                                              (72.73%)
+    43.011449914         97,081,541      L1-dcache-load-misses     #    7.44% of all L1-dcache hits    (81.81%)
+    43.011449914         10,554,055      LLC-loads                                                     (81.81%)
+    43.011449914          1,102,531      LLC-stores                                                    (81.81%)
+    43.011449914            475,753      LLC-load-misses           #    3.85% of all LL-cache hits     (18.19%)
+    43.011449914            462,669      LLC-store-misses                                              (18.19%)
+    43.011449914                  8      context-switches                                            
+    43.011449914                  0      migrations                                                  
+    44.011673957        261,074,207      rff24                                                         (27.28%)
+    44.011673957         25,662,990      r3f24                                                         (36.36%)
+    44.011673957      3,151,627,393      cycles                                                        (45.44%)
+    44.011673957      4,878,319,592      instructions              #    1.56  insn per cycle           (54.53%)
+    44.011673957                  0      major-faults                                                
+    44.011673957              2,755      minor-faults                                                
+    44.011673957      1,396,146,559      L1-dcache-loads                                               (63.64%)
+    44.011673957        672,178,011      L1-dcache-stores                                              (72.73%)
+    44.011673957         97,945,872      L1-dcache-load-misses     #    7.50% of all L1-dcache hits    (81.82%)
+    44.011673957         10,307,805      LLC-loads                                                     (81.81%)
+    44.011673957          1,153,080      LLC-stores                                                    (81.81%)
+    44.011673957            481,422      LLC-load-misses           #    3.91% of all LL-cache hits     (18.19%)
+    44.011673957            379,156      LLC-store-misses                                              (18.19%)
+    44.011673957                 10      context-switches                                            
+    44.011673957                  0      migrations                                                  
+    45.011941473        263,155,872      rff24                                                         (27.28%)
+    45.011941473         26,239,136      r3f24                                                         (36.36%)
+    45.011941473      3,154,703,433      cycles                                                        (45.45%)
+    45.011941473      4,906,343,199      instructions              #    1.57  insn per cycle           (54.54%)
+    45.011941473                  0      major-faults                                                
+    45.011941473              3,168      minor-faults                                                
+    45.011941473      1,403,123,632      L1-dcache-loads                                               (63.64%)
+    45.011941473        675,362,364      L1-dcache-stores                                              (72.73%)
+    45.011941473         98,579,031      L1-dcache-load-misses     #    7.53% of all L1-dcache hits    (81.82%)
+    45.011941473         10,385,054      LLC-loads                                                     (81.81%)
+    45.011941473          1,124,746      LLC-stores                                                    (81.81%)
+    45.011941473            538,583      LLC-load-misses           #    4.39% of all LL-cache hits     (18.19%)
+    45.011941473            498,112      LLC-store-misses                                              (18.19%)
+    45.011941473                  8      context-switches                                            
+    45.011941473                  0      migrations                                                  
+    46.012208963        255,897,850      rff24                                                         (27.28%)
+    46.012208963         26,929,700      r3f24                                                         (36.36%)
+    46.012208963      3,152,320,378      cycles                                                        (45.45%)
+    46.012208963      4,830,925,000      instructions              #    1.54  insn per cycle           (54.54%)
+    46.012208963                  0      major-faults                                                
+    46.012208963              9,255      minor-faults                                                
+    46.012208963      1,387,795,270      L1-dcache-loads                                               (63.64%)
+    46.012208963        663,434,828      L1-dcache-stores                                              (72.73%)
+    46.012208963         95,910,310      L1-dcache-load-misses     #    7.32% of all L1-dcache hits    (81.82%)
+    46.012208963         10,544,874      LLC-loads                                                     (81.81%)
+    46.012208963          1,105,923      LLC-stores                                                    (81.80%)
+    46.012208963            490,231      LLC-load-misses           #    4.01% of all LL-cache hits     (18.19%)
+    46.012208963            479,456      LLC-store-misses                                              (18.20%)
+    46.012208963                  8      context-switches                                            
+    46.012208963                  0      migrations                                                  
+    47.012464377        197,994,701      rff24                                                         (27.28%)
+    47.012464377         35,824,345      r3f24                                                         (36.36%)
+    47.012464377      3,150,189,830      cycles                                                        (45.45%)
+    47.012464377      4,499,042,040      instructions              #    1.44  insn per cycle           (54.54%)
+    47.012464377                  0      major-faults                                                
+    47.012464377              9,978      minor-faults                                                
+    47.012464377      1,306,835,661      L1-dcache-loads                                               (63.64%)
+    47.012464377        700,231,230      L1-dcache-stores                                              (72.73%)
+    47.012464377         85,160,856      L1-dcache-load-misses     #    6.50% of all L1-dcache hits    (81.81%)
+    47.012464377         20,571,687      LLC-loads                                                     (81.81%)
+    47.012464377          1,159,746      LLC-stores                                                    (81.80%)
+    47.012464377          3,315,213      LLC-load-misses           #   26.71% of all LL-cache hits     (18.19%)
+    47.012464377            242,000      LLC-store-misses                                              (18.20%)
+    47.012464377                  8      context-switches                                            
+    47.012464377                  0      migrations                                                  
+    48.012713022        177,842,408      rff24                                                         (27.28%)
+    48.012713022         31,594,737      r3f24                                                         (36.36%)
+    48.012713022      3,113,501,919      cycles                                                        (45.45%)
+    48.012713022      5,120,748,232      instructions              #    1.63  insn per cycle           (54.54%)
+    48.012713022                  0      major-faults                                                
+    48.012713022              4,149      minor-faults                                                
+    48.012713022      1,505,585,873      L1-dcache-loads                                               (63.64%)
+    48.012713022        852,775,491      L1-dcache-stores                                              (72.73%)
+    48.012713022         90,127,376      L1-dcache-load-misses     #    6.86% of all L1-dcache hits    (81.81%)
+    48.012713022         19,109,156      LLC-loads                                                     (81.81%)
+    48.012713022          1,019,651      LLC-stores                                                    (81.80%)
+    48.012713022          3,013,138      LLC-load-misses           #   24.01% of all LL-cache hits     (18.19%)
+    48.012713022             70,149      LLC-store-misses                                              (18.20%)
+    48.012713022                  7      context-switches                                            
+    48.012713022                  0      migrations                                                  
+    49.012964254        181,047,907      rff24                                                         (27.28%)
+    49.012964254         43,010,952      r3f24                                                         (36.36%)
+    49.012964254      3,134,986,490      cycles                                                        (45.45%)
+    49.012964254      3,259,025,516      instructions              #    1.04  insn per cycle           (54.54%)
+    49.012964254                  0      major-faults                                                
+    49.012964254            172,776      minor-faults                                                
+    49.012964254        939,813,531      L1-dcache-loads                                               (63.64%)
+    49.012964254        613,159,501      L1-dcache-stores                                              (72.73%)
+    49.012964254         81,576,608      L1-dcache-load-misses     #    6.24% of all L1-dcache hits    (81.81%)
+    49.012964254         14,054,919      LLC-loads                                                     (81.81%)
+    49.012964254          1,918,960      LLC-stores                                                    (81.80%)
+    49.012964254          4,880,852      LLC-load-misses           #   38.80% of all LL-cache hits     (18.19%)
+    49.012964254            445,648      LLC-store-misses                                              (18.20%)
+    49.012964254                  2      context-switches                                            
+    49.012964254                  2      migrations                                                  
+    50.013220714        194,231,055      rff24                                                         (27.28%)
+    50.013220714        154,015,026      r3f24                                                         (36.36%)
+    50.013220714      3,112,876,080      cycles                                                        (45.45%)
+    50.013220714      2,319,624,680      instructions              #    0.74  insn per cycle           (54.53%)
+    50.013220714                  0      major-faults                                                
+    50.013220714            159,594      minor-faults                                                
+    50.013220714        699,094,509      L1-dcache-loads                                               (63.64%)
+    50.013220714        461,328,683      L1-dcache-stores                                              (72.73%)
+    50.013220714         97,729,964      L1-dcache-load-misses     #    7.55% of all L1-dcache hits    (81.81%)
+    50.013220714         53,643,726      LLC-loads                                                     (81.81%)
+    50.013220714         12,538,091      LLC-stores                                                    (81.80%)
+    50.013220714         15,869,439      LLC-load-misses           #  118.42% of all LL-cache hits     (18.19%)
+    50.013220714          3,664,016      LLC-store-misses                                              (18.20%)
+    50.013220714                  1      context-switches                                            
+    50.013220714                  3      migrations                                                  
+#           time             counts unit events
+    51.013483083        279,797,330      rff24                                                         (27.28%)
+    51.013483083        106,637,638      r3f24                                                         (36.36%)
+    51.013483083      3,147,321,657      cycles                                                        (45.45%)
+    51.013483083      3,846,125,180      instructions              #    1.23  insn per cycle           (54.53%)
+    51.013483083                  0      major-faults                                                
+    51.013483083             25,242      minor-faults                                                
+    51.013483083      1,156,064,348      L1-dcache-loads                                               (63.64%)
+    51.013483083        592,333,725      L1-dcache-stores                                              (72.73%)
+    51.013483083        160,774,115      L1-dcache-load-misses     #   12.45% of all L1-dcache hits    (81.81%)
+    51.013483083         54,757,679      LLC-loads                                                     (81.81%)
+    51.013483083            960,759      LLC-stores                                                    (81.81%)
+    51.013483083         15,157,462      LLC-load-misses           #  106.65% of all LL-cache hits     (18.19%)
+    51.013483083             65,035      LLC-store-misses                                              (18.19%)
+    51.013483083                  0      context-switches                                            
+    51.013483083                  1      migrations                                                  
+    52.013908765        199,517,135      rff24                                                         (27.27%)
+    52.013908765         68,670,122      r3f24                                                         (36.37%)
+    52.013908765      3,106,355,621      cycles                                                        (45.44%)
+    52.013908765      3,926,950,957      instructions              #    1.25  insn per cycle           (54.53%)
+    52.013908765                  0      major-faults                                                
+    52.013908765             10,898      minor-faults                                                
+    52.013908765        956,775,304      L1-dcache-loads                                               (63.63%)
+    52.013908765        720,554,093      L1-dcache-stores                                              (72.72%)
+    52.013908765         91,356,788      L1-dcache-load-misses     #    7.11% of all L1-dcache hits    (81.81%)
+    52.013908765         19,575,076      LLC-loads                                                     (81.80%)
+    52.013908765         14,453,180      LLC-stores                                                    (81.81%)
+    52.013908765          3,132,139      LLC-load-misses           #   21.88% of all LL-cache hits     (18.20%)
+    52.013908765          5,571,956      LLC-store-misses                                              (18.19%)
+    52.013908765              1,660      context-switches                                            
+    52.013908765                 66      migrations                                                  
+    53.014376349         91,710,503      rff24                                                         (27.27%)
+    53.014376349         48,585,510      r3f24                                                         (36.37%)
+    53.014376349      7,868,772,913      cycles                                                        (45.44%)
+    53.014376349      3,410,934,966      instructions              #    1.06  insn per cycle           (54.51%)
+    53.014376349                  0      major-faults                                                
+    53.014376349             53,205      minor-faults                                                
+    53.014376349        654,371,077      L1-dcache-loads                                               (63.60%)
+    53.014376349        363,113,085      L1-dcache-stores                                              (72.71%)
+    53.014376349         56,212,120      L1-dcache-load-misses     #    4.41% of all L1-dcache hits    (81.80%)
+    53.014376349         22,983,380      LLC-loads                                                     (81.81%)
+    53.014376349          2,766,416      LLC-stores                                                    (81.82%)
+    53.014376349         12,269,680      LLC-load-misses           #   84.74% of all LL-cache hits     (18.19%)
+    53.014376349          1,749,635      LLC-store-misses                                              (18.18%)
+    53.014376349              3,818      context-switches                                            
+    53.014376349                 79      migrations                                                  
+    54.014767300         83,142,450      rff24                                                         (27.27%)
+    54.014767300         48,957,295      r3f24                                                         (36.37%)
+    54.014767300      2,453,482,114      cycles                                                        (45.44%)
+    54.014767300      1,413,633,548      instructions              #    0.44  insn per cycle           (54.50%)
+    54.014767300                  0      major-faults                                                
+    54.014767300                146      minor-faults                                                
+    54.014767300        469,712,080      L1-dcache-loads                                               (63.59%)
+    54.014767300        265,763,703      L1-dcache-stores                                              (72.69%)
+    54.014767300         66,026,182      L1-dcache-load-misses     #    5.25% of all L1-dcache hits    (81.80%)
+    54.014767300         36,927,022      LLC-loads                                                     (81.81%)
+    54.014767300          1,855,502      LLC-stores                                                    (81.81%)
+    54.014767300         25,222,164      LLC-load-misses           #  169.34% of all LL-cache hits     (18.19%)
+    54.014767300          1,650,598      LLC-store-misses                                              (18.19%)
+    54.014767300              6,818      context-switches                                            
+    54.014767300                 90      migrations                                                  
+    55.015181243         82,827,379      rff24                                                         (27.26%)
+    55.015181243         48,332,923      r3f24                                                         (36.38%)
+    55.015181243      2,485,639,786      cycles                                                        (45.44%)
+    55.015181243      1,447,412,411      instructions              #    0.45  insn per cycle           (54.50%)
+    55.015181243                  0      major-faults                                                
+    55.015181243                 56      minor-faults                                                
+    55.015181243        478,129,032      L1-dcache-loads                                               (63.59%)
+    55.015181243        269,794,241      L1-dcache-stores                                              (72.68%)
+    55.015181243         66,696,244      L1-dcache-load-misses     #    5.36% of all L1-dcache hits    (81.78%)
+    55.015181243         36,359,197      LLC-loads                                                     (81.81%)
+    55.015181243          1,797,183      LLC-stores                                                    (81.83%)
+    55.015181243         23,918,113      LLC-load-misses           #  156.48% of all LL-cache hits     (18.19%)
+    55.015181243          1,664,534      LLC-store-misses                                              (18.17%)
+    55.015181243              6,679      context-switches                                            
+    55.015181243                 66      migrations                                                  
+    56.015547834         94,678,515      rff24                                                         (27.25%)
+    56.015547834         60,838,562      r3f24                                                         (36.36%)
+    56.015547834      2,611,017,470      cycles                                                        (45.43%)
+    56.015547834      1,349,758,155      instructions              #    0.42  insn per cycle           (54.50%)
+    56.015547834                  0      major-faults                                                
+    56.015547834             37,077      minor-faults                                                
+    56.015547834        434,588,428      L1-dcache-loads                                               (63.60%)
+    56.015547834        247,585,329      L1-dcache-stores                                              (72.70%)
+    56.015547834         71,886,553      L1-dcache-load-misses     #    5.85% of all L1-dcache hits    (81.80%)
+    56.015547834         44,593,543      LLC-loads                                                     (81.82%)
+    56.015547834          2,243,694      LLC-stores                                                    (81.83%)
+    56.015547834         18,780,039      LLC-load-misses           #  118.80% of all LL-cache hits     (18.18%)
+    56.015547834          1,981,661      LLC-store-misses                                              (18.17%)
+    56.015547834              6,137      context-switches                                            
+    56.015547834                106      migrations                                                  
+    57.015785394         74,860,790      rff24                                                         (27.28%)
+    57.015785394         55,971,913      r3f24                                                         (36.38%)
+    57.015785394      3,045,216,851      cycles                                                        (45.44%)
+    57.015785394      2,240,857,901      instructions              #    0.70  insn per cycle           (54.51%)
+    57.015785394                  0      major-faults                                                
+    57.015785394             15,476      minor-faults                                                
+    57.015785394        635,402,643      L1-dcache-loads                                               (63.61%)
+    57.015785394        348,762,035      L1-dcache-stores                                              (72.70%)
+    57.015785394         58,356,124      L1-dcache-load-misses     #    4.79% of all L1-dcache hits    (81.80%)
+    57.015785394         40,717,899      LLC-loads                                                     (81.83%)
+    57.015785394          1,717,463      LLC-stores                                                    (81.82%)
+    57.015785394          8,357,861      LLC-load-misses           #   51.45% of all LL-cache hits     (18.17%)
+    57.015785394          1,093,701      LLC-store-misses                                              (18.18%)
+    57.015785394              1,716      context-switches                                            
+    57.015785394                 23      migrations                                                  
+    58.016025575          2,766,173      rff24                                                         (27.27%)
+    58.016025575          1,332,823      r3f24                                                         (36.38%)
+    58.016025575      3,149,929,068      cycles                                                        (45.44%)
+    58.016025575      4,653,498,754      instructions              #    1.46  insn per cycle           (54.50%)
+    58.016025575                  0      major-faults                                                
+    58.016025575                  0      minor-faults                                                
+    58.016025575      1,457,442,755      L1-dcache-loads                                               (63.60%)
+    58.016025575        869,088,020      L1-dcache-stores                                              (72.70%)
+    58.016025575          2,063,609      L1-dcache-load-misses     #    0.17% of all L1-dcache hits    (81.80%)
+    58.016025575          1,083,728      LLC-loads                                                     (81.82%)
+    58.016025575             16,773      LLC-stores                                                    (81.82%)
+    58.016025575            589,646      LLC-load-misses           #    3.69% of all LL-cache hits     (18.18%)
+    58.016025575              9,598      LLC-store-misses                                              (18.18%)
+    58.016025575                 12      context-switches                                            
+    58.016025575                  1      migrations                                                  
+    58.295792495          5,307,966      rff24                                                         (27.27%)
+    58.295792495          2,879,219      r3f24                                                         (36.38%)
+    58.295792495        853,913,672      cycles                                                        (45.44%)
+    58.295792495      1,055,435,785      instructions              #    0.34  insn per cycle           (54.50%)
+    58.295792495                  0      major-faults                                                
+    58.295792495                 37      minor-faults                                                
+    58.295792495        254,843,076      L1-dcache-loads                                               (63.60%)
+    58.295792495        178,722,683      L1-dcache-stores                                              (72.70%)
+    58.295792495          4,302,777      L1-dcache-load-misses     #    0.36% of all L1-dcache hits    (81.80%)
+    58.295792495          2,168,868      LLC-loads                                                     (81.82%)
+    58.295792495             61,431      LLC-stores                                                    (81.82%)
+    58.295792495          1,536,500      LLC-load-misses           #    9.76% of all LL-cache hits     (18.18%)
+    58.295792495             12,955      LLC-store-misses                                              (18.18%)
+    58.295792495                 15      context-switches                                            
+    58.295792495                  4      migrations                                                  
